@@ -1,4 +1,10 @@
+#!/usr/bin/perl
+# Sample sercer. 
+# Will request client certificates.
+# Shows chain from client.
+
 use strict;
+use warnings;
 use IO::Socket::SSL;
 
 # Server

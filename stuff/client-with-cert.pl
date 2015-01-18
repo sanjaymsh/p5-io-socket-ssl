@@ -1,6 +1,10 @@
+#!/usr/bin/perl
+# Sample client. 
+# Will connect to server at send client certificates if required.
+# Shows chain from server.
+
 use strict;
 use warnings;
-use IO::Socket::SSL;
 use IO::Socket::SSL;
 
 my $addr = shift(@ARGV) || '127.0.0.1:8443';

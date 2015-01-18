@@ -1,3 +1,6 @@
+#!/usr/bin/perl
+# Create some sample certificates. Move them to certs/ to use with other sample code.
+
 use strict;
 use warnings;
 use IO::Socket::SSL::Utils 0.031;
